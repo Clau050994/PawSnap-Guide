@@ -25,7 +25,7 @@ function App() {
       ) {
         await fetchRandomDog();
       } else {
-        setDogData(response.data[0]); // Assuming the API responds with an array
+        setDogData(response.data[0]);
       }
     } catch (error) {
       console.error('Error fetching dog image:', error);
